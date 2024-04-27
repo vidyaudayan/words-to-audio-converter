@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(63,250,251);
+  background: radial-gradient(circle, rgba(63,250,251,1) 0%, rgba(70,83,252,1) 100%);
+}
+h1 {
+  font-size: 48px;
+  font-family: 600;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+textarea {
+  width: 600px;
+  height: 250px;
+  background: bisque;
+  color: black;
+  font-size: 15px;
+  border: 0;
+  outline: 0;
+  padding: 20px;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 30px;
+}
+textarea::placeholder {
+  font-size: 16px;
+  color: black;
+}
+.row {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+button {
+  background: rgb(220, 57, 139);
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+  border-radius: 35px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+button:hover{
+    background-color: rgb(198, 57, 198);
+}
+.playicon {
+  padding: 6px;
+}
+select {
+  color: rgb(8, 2, 2);
+  flex: 1;
+  background: rgb(138, 171, 80);
+  height: 50px;
+
+  padding: 0 20px;
+  outline: none;
+  border: 0;
+  border-radius: 35px;
+  appearance: none;
+  background-image: url(Image/down\ icon.svg);
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: 95% 50%;
+  background-color:rgb(158, 95, 217);
+}
